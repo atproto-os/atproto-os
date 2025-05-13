@@ -132,7 +132,8 @@ export default defineDesktopConfig({
 ```
 
 ## Supporting
-Open Web Desktop could become a vast project, the code has been entirely rewritten and is now actively being developed. Your support is crucial to keep it moving forward. If you like to see more, please consider donating.
+Open Web Desktop may become a vast project, the code has been entirely rewritten and is now actively being developed. Your support is crucial to keep it moving forward. If you like to see more, please consider donating.  
+[Become a sponsor](https://github.com/sponsors/owdproject)
 
 ## License
 atprotoOS is released under the [GNU General Public License v3](LICENSE).
