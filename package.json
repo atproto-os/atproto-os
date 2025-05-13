@@ -1,14 +1,14 @@
 {
-  "name": "atproto-os/client",
+  "name": "atproto-os/atproto-os",
   "private": true,
   "description": "Starter for atproto OS",
-  "homepage": "https://github.com/atproto-os/client#readme",
+  "homepage": "https://github.com/atproto-os/atproto-os#readme",
   "bugs": {
-    "url": "https://github.com/atproto-os/client/issues"
+    "url": "https://github.com/atproto-os/atproto-os/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atproto-os/client.git"
+    "url": "git+https://github.com/atproto-os/atproto-os.git"
   },
   "license": "GPL-3.0-or-later",
   "author": {
