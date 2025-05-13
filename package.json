@@ -1,0 +1,37 @@
+{
+  "name": "atproto-os/client",
+  "private": true,
+  "description": "Starter for atproto OS",
+  "homepage": "https://github.com/atproto-os/client#readme",
+  "bugs": {
+    "url": "https://github.com/atproto-os/client/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atproto-os/client.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": {
+    "name": "Open Web Desktop Team",
+    "url": "https://github.com/owdproject"
+  },
+  "scripts": {
+    "build": "nuxt generate",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate --dev",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@owdproject/core": "^3.1.0",
+    "@owdproject/theme-win95": "^0.1.0",
+    "@owdproject/app-about": "^0.1.0",
+    "@owdproject/app-todo": "^0.1.0",
+    "@owdproject/app-wasmboy": "^0.1.0",
+    "@owdproject/app-debug": "^0.1.0",
+    "@owdproject/app-terminal": "^0.1.0",
+    "@owdproject/app-atproto": "^0.0.1",
+    "@owdproject/module-atproto": "^0.0.1",
+    "@owdproject/module-pinia-atproto": "^0.0.1"
+  }
+}
