@@ -7,7 +7,7 @@
 </h3>
 
 ## Overview
-Open Web Desktop (OWD) is a framework designed to provide a simple environment for building web-based desktop experiences. It's built with Vue.js & TypeScript, and it leverages an extensible Nuxt.js architecture.
+Open Web Desktop (OWD) is a framework designed to provide a simple environment for building web-based desktop experiences. It's built with Vue.js & TypeScript, and it leverages the extensible Nuxt.js architecture.
 
 [atprotoOS](https://github.com/atproto-os) is providing a set of modules to kickstart your Open Web Desktop on the AT Protocol.
 
@@ -132,7 +132,8 @@ export default defineDesktopConfig({
 ```
 
 ## Supporting
-Open Web Desktop may become a vast project, the code has been entirely rewritten and is now actively being developed. Your support is crucial to keep it moving forward. If you like to see more, please consider donating.  
+Open Web Desktop may become a vast project, the code has been entirely rewritten and is now actively being developed. Your support is crucial to keep it moving forward. If you like to see more, please consider donating.
+
 [Become a sponsor](https://github.com/sponsors/owdproject)
 
 ## License
