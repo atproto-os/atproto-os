@@ -15,7 +15,7 @@
     "@owdproject/core": "^3.1.0",
     "@owdproject/theme-win95": "^0.1.0",
     "@owdproject/app-about": "^0.1.0",
-    "@owdproject/app-todo": "^0.1.0",
+    "@owdproject/app-todo": "^0.1.1",
     "@owdproject/app-wasmboy": "^0.1.0",
     "@owdproject/app-debug": "^0.1.0",
     "@owdproject/app-terminal": "^0.1.0",
