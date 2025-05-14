@@ -33,5 +33,8 @@
     "@owdproject/app-atproto": "^0.0.1",
     "@owdproject/module-atproto": "^0.0.1",
     "@owdproject/module-pinia-atproto": "^0.0.1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }
