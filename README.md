@@ -1,15 +1,15 @@
 <p align="center">
   <img width="160" height="160" src="https://avatars.githubusercontent.com/u/201536780?s=160&v=4" />
 </p>
-<h1 align="center">atprotoOS Starter</h1>
+<h1 align="center">atproto OS</h1>
 <h3 align="center">
-    Starter Template for Open Web Desktop + AT Protocol
+    Open Web Desktop + AT Protocol
 </h3>
 
 ## Overview
 Open Web Desktop (OWD) is a framework designed to provide a simple environment for building web-based desktop experiences. It's built with Vue.js & TypeScript, and it leverages the extensible Nuxt.js architecture.
 
-[atprotoOS](https://github.com/atproto-os) is providing a set of modules to kickstart your Open Web Desktop on the AT Protocol.
+[atproto OS](https://github.com/atproto-os) is providing a set of modules to kickstart your Open Web Desktop on the AT Protocol.
 
 ## Features
 - Open-source web desktop bundled with AT Protocol modules
@@ -44,11 +44,13 @@ git clone https://github.com/<username>/atproto-os.git
 
 Once ready, you can start the development server:
 ```bash
-# Run the dev server with hot-reload
+# Run the dev server + hot-reload with npm
+npm install
 npm run dev
 
-# Build for production
-npm run generate
+# Or use pnpm for a faster experience
+pnpm install
+pnpm run dev
 ```
 
 ### Configuring atprotoOS
@@ -97,7 +99,7 @@ atproto: {
 Open Web Desktop projects can be extended with [themes, modules, and applications](https://github.com/topics/owd-modules).
 
 ### Install a new app
-You can install an application with `npm install @owdproject/app-todo`.  
+You can install an application with `pnpm install @owdproject/app-todo`.  
 Then, simply define it in the configuration:
 
 ```typescript
@@ -118,7 +120,7 @@ Documentation is under development, please take a look at the source code of alr
 You can install a [new theme](https://github.com/topics/owd-themes) the same way.  
 
 ```bash
-npm install @owdproject/theme-gnome
+pnpm install @owdproject/theme-gnome
 ```
 
 Define the theme in `owd.config.ts`:
