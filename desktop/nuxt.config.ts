@@ -7,14 +7,8 @@ export default defineNuxtConfig({
         host: "127.0.0.1",
     },
 
-    srcDir: 'desktop',
-
     modules: [
         '@owdproject/core',
-    ],
-
-    css: [
-        './desktop/assets/styles/index.scss',
     ],
 
     i18n: {

@@ -1,0 +1,26 @@
+{
+  "name": "atproto-os",
+  "private": true,
+  "nx": {
+    "name": "desktop"
+  },
+  "scripts": {
+    "build": "nuxt generate",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate --dev",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@owdproject/core": "^3.1.0",
+    "@owdproject/theme-win95": "^0.1.0",
+    "@owdproject/app-about": "^0.1.0",
+    "@owdproject/app-todo": "^0.1.0",
+    "@owdproject/app-wasmboy": "^0.1.0",
+    "@owdproject/app-debug": "^0.1.0",
+    "@owdproject/app-terminal": "^0.1.0",
+    "@owdproject/app-atproto": "^0.0.1",
+    "@owdproject/module-atproto": "^0.0.1",
+    "@owdproject/module-pinia-atproto": "^0.0.1"
+  }
+}
