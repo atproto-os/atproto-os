@@ -63,8 +63,5 @@
     "desktop/*",
     "packages/*",
     "themes/*"
-  ],
-  "engines": {
-    "node": ">=22.0.0"
-  }
+  ]
 }
