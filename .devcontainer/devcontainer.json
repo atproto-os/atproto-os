@@ -1,0 +1,9 @@
+{
+  "name": "atprotoOS",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "npm install && npm run dev"
+}
