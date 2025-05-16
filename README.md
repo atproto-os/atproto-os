@@ -95,42 +95,43 @@ atproto: {
 }
 ```
 
-## Modules
-Open Web Desktop projects can be extended with [themes, modules, and applications](https://github.com/topics/owd-modules).
+## Extend your desktop
 
-### Install a new app
-You can install an application with `pnpm install @owdproject/app-todo`.  
-Then, simply define it in the configuration:
+Thanks to Tailwind and PrimeVue, you can create custom themes from scratch and ensure a consistent look across all apps. Each theme defines its own style, making your desktop both cohesive and uniquely yours.
 
-```typescript
-// owd.config.ts
-export default defineDesktopConfig({
-    theme: "@owdproject/theme-win95",
-    apps: [
-        "@owdproject/app-about",
-        "@owdproject/app-todo", // define here the app you just installed
-    ]
-})
-```
+[Applications](https://github.com/topics/owd-apps) · [Modules](https://github.com/topics/owd-modules) · [Themes](https://github.com/topics/owd-themes)
 
-### Create a new app
-Documentation is under development, please take a look at the source code of already existing applications and [join our Discord](https://discord.gg/zPNaN2HAaA) if you would like to explore them together. You may like the new [Open Web Desktop client](https://github.com/owdproject/client) implemented in a Nx monorepo, if you want a more structured development environment.
+### 🧩 Install an application
 
-## Themes
-You can install a [new theme](https://github.com/topics/owd-themes) the same way.  
+You can discover new apps by searching for the [owd-apps](https://github.com/topics/owd-apps) tag on GitHub.
+
+For example, to install the To-do app:
 
 ```bash
-pnpm install @owdproject/theme-gnome
+nx run desktop:install-app --name=@owdproject/app-todo
 ```
 
-Define the theme in `owd.config.ts`:
+This will install the package and automatically register it in your desktop configuration.
 
-```typescript
-// owd.config.ts
-import {defineDesktopConfig} from "@owdproject/core/runtime/utils/utilDesktop"
+### 🧩 Install a module
 
-export default defineDesktopConfig({
-    theme: '@owdproject/theme-gnome', // define here the theme you just installed
+You can discover new modules by searching for the [owd-modules](https://github.com/topics/owd-modules) tag on GitHub.
+
+For example, to install the session persistence module:
+
+```bash
+nx run desktop:install-module --name=@owdproject/module-pinia-localforage
+```
+
+### 🖥️ Themes
+
+Themes are full desktop environments that style all UI components independently using [PrimeVue](https://primevue.org/).  
+Each theme provides a unique look and feel while maintaining consistent functionality across all applications.
+
+You can discover new themes by searching for the [owd-themes](https://github.com/topics/owd-themes) tag on GitHub.
+
+```bash
+nx run desktop:install-theme --name=@owdproject/theme-gnome
 ```
 
 ## Supporting
