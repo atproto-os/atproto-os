@@ -16,9 +16,11 @@
     "url": "https://github.com/owdproject"
   },
   "scripts": {
-    "dev": "nx run desktop:serve"
+    "dev": "nx run desktop:serve",
+    "generate": "nx run desktop:generate"
   },
   "devDependencies": {
+    "@owdproject/nx": "^0.0.1",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.26.0",
     "@nuxt/devtools": "2.4.0",
